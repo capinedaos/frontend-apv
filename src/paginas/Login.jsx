@@ -85,6 +85,24 @@ const Login = () => {
           />
         </form>
 
+        <div>
+          <h2 className="font-black text-3xl text-center mt-5 ">
+            Usuarios Demo
+          </h2>
+
+          <p className="text-xl mt-1 mb-1 text-center">
+            usuario1@mail.com {""}
+          </p>
+          <p className="text-xl mt-1 mb-1 text-center">
+            usuario2@mail.com {""}
+          </p>
+          <p className="text-xl mt-1 mb-1 text-center">
+            password:
+            <span className="text-indigo-600  "> 123456</span>
+            {""}
+          </p>
+        </div>
+
         <nav className="mt-10 lg:flex lg:justify-between">
           <Link
             className="block text-center my-5 text-gray-500"
